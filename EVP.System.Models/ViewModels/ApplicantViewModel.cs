@@ -27,7 +27,7 @@ namespace EVP.System.ViewModels
         [Required]
         public string CitizenshipNo { get; set; }
 
-        public class ApplicationCreateViewModel
+        public class ApplicantCreateViewModel
         {
             [Key]
             public int ApplicantId { get; set; }

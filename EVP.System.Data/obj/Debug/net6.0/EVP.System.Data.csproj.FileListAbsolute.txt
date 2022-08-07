@@ -1,0 +1,17 @@
+F:\Z.Project\EVP System\EVP.System.Data\bin\Debug\net6.0\EVP.System.Data.deps.json
+F:\Z.Project\EVP System\EVP.System.Data\bin\Debug\net6.0\EVP.System.Data.runtimeconfig.json
+F:\Z.Project\EVP System\EVP.System.Data\bin\Debug\net6.0\EVP.System.Data.dll
+F:\Z.Project\EVP System\EVP.System.Data\bin\Debug\net6.0\EVP.System.Data.pdb
+F:\Z.Project\EVP System\EVP.System.Data\bin\Debug\net6.0\EVP.System.Models.dll
+F:\Z.Project\EVP System\EVP.System.Data\bin\Debug\net6.0\EVP.System.Models.pdb
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\EVP.System.Data.csproj.AssemblyReference.cache
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\EVP.System.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\EVP.System.Data.AssemblyInfoInputs.cache
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\EVP.System.Data.AssemblyInfo.cs
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\EVP.System.Data.csproj.CoreCompileInputs.cache
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\EVP.System.Data.csproj.CopyComplete
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\EVP.System.Data.dll
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\refint\EVP.System.Data.dll
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\EVP.System.Data.pdb
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\EVP.System.Data.genruntimeconfig.cache
+F:\Z.Project\EVP System\EVP.System.Data\obj\Debug\net6.0\ref\EVP.System.Data.dll

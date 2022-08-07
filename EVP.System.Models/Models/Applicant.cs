@@ -26,6 +26,9 @@ namespace EVP.System.Models
         [Required]
         public string CitizenshipNo { get; set; }
 
+        public bool IsDeleted { get; set; }
+
+
 
     }
 }

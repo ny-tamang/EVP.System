@@ -1,0 +1,8 @@
+F:\Z.Project\EVP System\EVP.System\obj\Debug\net6.0\EVP.System.csproj.AssemblyReference.cache
+F:\Z.Project\EVP System\EVP.System\obj\Debug\net6.0\EVP.System.GeneratedMSBuildEditorConfig.editorconfig
+F:\Z.Project\EVP System\EVP.System\obj\Debug\net6.0\EVP.System.AssemblyInfoInputs.cache
+F:\Z.Project\EVP System\EVP.System\obj\Debug\net6.0\EVP.System.AssemblyInfo.cs
+F:\Z.Project\EVP System\EVP.System\obj\Debug\net6.0\EVP.System.csproj.CoreCompileInputs.cache
+F:\Z.Project\EVP System\EVP.System\obj\Debug\net6.0\EVP.System.MvcApplicationPartsAssemblyInfo.cache
+F:\Z.Project\EVP System\EVP.System\obj\Debug\net6.0\EVP.System.RazorAssemblyInfo.cache
+F:\Z.Project\EVP System\EVP.System\obj\Debug\net6.0\EVP.System.RazorAssemblyInfo.cs

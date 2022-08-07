@@ -1,4 +1,6 @@
 using EVP.System.Data;
+using EVP.System.Repository;
+using EVP.System.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,6 +20,11 @@ namespace EVP.System
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            //dependencies of the .repository and .services added.
+            DependenciesConfig(builder.Services);
+
+
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
@@ -48,6 +55,17 @@ namespace EVP.System
             app.MapRazorPages();
 
             app.Run();
+        }
+
+        private static void DependenciesConfig(IServiceCollection services)
+        {
+            #region Repositories
+            services.AddTransient<IApplicantRepository, ApplicantRepository>();
+            #endregion Repositories
+
+            #region Services
+            services.AddTransient<IApplicantService, ApplicantService>();
+            #endregion Services
         }
     }
 }

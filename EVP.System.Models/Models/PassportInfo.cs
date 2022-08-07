@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EVP.System.Models.Models
+namespace EVP.System.Models
 {
-    internal class PassportInfoViewModel
+    public class PassportInfoViewModel
     {
     }
 }

@@ -1,0 +1,5 @@
+F:\Z.Project\EVP System\EVP.System.Services\obj\Debug\net6.0\EVP.System.Services.csproj.AssemblyReference.cache
+F:\Z.Project\EVP System\EVP.System.Services\obj\Debug\net6.0\EVP.System.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\Z.Project\EVP System\EVP.System.Services\obj\Debug\net6.0\EVP.System.Services.AssemblyInfoInputs.cache
+F:\Z.Project\EVP System\EVP.System.Services\obj\Debug\net6.0\EVP.System.Services.AssemblyInfo.cs
+F:\Z.Project\EVP System\EVP.System.Services\obj\Debug\net6.0\EVP.System.Services.csproj.CoreCompileInputs.cache
