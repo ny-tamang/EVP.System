@@ -1,5 +1,193 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model Applicant
+
 @{
+    ViewData["Title"] = "Add a new applicant";
 }
+
+<div class="row text">
+    <div class="col-md-8 offset-2">
+        <p>
+            <h1>Add a New Applicant</h1>
+        </p>
+        <div class="container">
+            <form>
+                <h2>Applicant Details</h2>
+                <h3>Personal details</h3>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="inputEmail4">First Name</label>
+                        <input type="text" class=" form-control"
+                               id="inputEmail4" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputPassword4">Middle Name</label>
+                        <input type="text" class="form-control"
+                               id="inputPassword4" placeholder="Middle Name">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputPassword4">Last Name</label>
+                        <input type="text" class="form-control"
+                               id="inputPassword4" placeholder="Last Name">
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <div class="form-check col-md-2">
+                        <label for="inputPassword4" style="margin-left: -5px;">Gender </label>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1" style="margin-left: 30px;">
+                            Male
+                        </label>
+                    </div>
+                    <div class="form-check col-md-2">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2" style="margin-left: 30px;">
+                            Female
+                        </label>
+                    </div>
+                    <div class="form-check  col-md-2">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                        <label class="form-check-label" for="exampleRadios3" style="margin-left: 30px;">
+                            others
+                        </label>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputEmail4">Nationality</label>
+                        <input type="text" class=" form-control"
+                               id="inputEmail4" placeholder="Nationality">
+                    </div>
+                    <div class="input-group date col-md-3" data-provide="datepicker">
+                        <label for="inputDate">Date of Birth</label>
+                        <input type="text" class="form-control" date-date-format="mm/dd/yyyy" id="dp2" placeholder="mm/dd/yyyy">
+                    </div>
+                </div>
+
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="text" class=" form-control"
+                               id="inputEmail4" placeholder="email address">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Phone</label>
+                        <input type="text" class="form-control"
+                               id="inputPassword4" placeholder="phone number">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Father's Name</label>
+                        <input type="text" class=" form-control"
+                               id="inputEmail4" placeholder="father's name">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Occupation</label>
+                        <input type="text" class="form-control"
+                               id="inputPassword4" placeholder="Occupation">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Mother's Name</label>
+                        <input type="text" class=" form-control"
+                               id="inputEmail4" placeholder="mother's name">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Occupation</label>
+                        <input type="text" class="form-control"
+                               id="inputPassword4" placeholder="Occupation">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">CitizenShip No</label>
+                        <input type="text" class=" form-control"
+                               id="inputEmail4" placeholder="CitizenShip Number">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">RelationShip</label>
+                        <input type="text" class="form-control"
+                               id="inputPassword4" placeholder="realtionship status">
+                    </div>
+                </div>
+
+
+                <h3>Address</h3>
+
+                <h4>Permanent Address</h4><br>
+                <div class="form-row">
+                    <div class="form-group col-md-6 ">
+                        <label for="inputState">Country</label><br>
+                        <select class="selectpicker countrypicker" data-flag="true" id="selectpicker countrypicker"></select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">City/Street</label>
+                        <input type="text" class="form-control" placeholder="City/street"
+                               id="inputCity">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputState">State</label>
+                        <input type="text" class="form-control" id="inputState"
+                               placeholder="state name">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputZip">Zip Code</label>
+                        <input type="text" class="form-control" id="inputZip"
+                               placeholder="Zip Code">
+                    </div>
+                </div>
+                <h4>Temporary Address</h4><br>
+                <div class="form-row">
+                    <div class="form-group col-md-6 ">
+                        <label for="inputState">Country</label><br>
+                        <select class="selectpicker countrypicker" data-flag="true" id="selectpicker countrypicker"></select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">City/Street</label>
+                        <input type="text" class="form-control" placeholder="City/street"
+                               id="inputCity">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputState">State</label>
+                        <input type="text" class="form-control" id="inputState"
+                               placeholder="state name">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputZip">Zip Code</label>
+                        <input type="text" class="form-control" id="inputZip"
+                               placeholder="Zip Code">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck" style="margin-left: 20px;">
+                            I Agree To Terms and Conditions
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        </div>
+        </div>
+        <script type="text/javascript" src="bootstrap-datepicker.de.js" charset="UTF-8"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="//cdn.tutorialjinni.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="//cdn.tutorialjinni.com/bootstrap-select/1.12.4/js/bootstrap-select.min.js"> </script>
+        <script src="//g.tutorialjinni.com/mojoaxel/bootstrap-select-country/dist/js/bootstrap-select-country.min.js"></script>
+
+
+
