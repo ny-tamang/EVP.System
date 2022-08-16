@@ -12,7 +12,7 @@ namespace EVP.System.Services
 {
     public interface IApplicantService
     {
-        (bool, string) Create(ApplicantCreateViewModel model);
+        (bool, string) Create(CreateApplicantViewModel model);
         (bool, string) HardDelete(int id);
         (bool, string) SoftDelete(int id);
     }
@@ -25,7 +25,7 @@ namespace EVP.System.Services
             this.ApplicantRepository = IApplicantRepository;   
         }
 
-        public (bool, string) Create(ApplicantCreateViewModel model)
+        public (bool, string) Create(CreateApplicantViewModel model)
         {
             try
             {

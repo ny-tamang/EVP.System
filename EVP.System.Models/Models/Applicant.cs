@@ -15,10 +15,23 @@ namespace EVP.System.Models
         public string Name { get; set; }
         [Required]
         public string Email { get; set; }
+
         [Required]
+        [Display(Name = "Phone No.")]
         public string PhoneNo { get; set; }
+        
         [Required]
         public string Gender { get; set; }
+
+        [Required]
+        [Display(Name = "Permanent Address")]
+        public string PermanentAddress { get; set; }
+
+        [Display(Name = "Temporary Address")]
+        public string TemporaryAddress { get; set; }
+        
+        [Required]
+        public string DateOfBirth { get; set; }
         [Required]
         public string PlaceOfBirth { get; set; }
         [Required]
@@ -26,9 +39,9 @@ namespace EVP.System.Models
         [Required]
         public string CitizenshipNo { get; set; }
 
+        public string Occupation { get; set; }
+
         public bool IsDeleted { get; set; }
-
-
 
     }
 }

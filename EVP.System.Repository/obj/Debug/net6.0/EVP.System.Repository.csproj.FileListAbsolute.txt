@@ -3,3 +3,15 @@ F:\Z.Project\EVP System\EVP.System.Repository\obj\Debug\net6.0\EVP.System.Reposi
 F:\Z.Project\EVP System\EVP.System.Repository\obj\Debug\net6.0\EVP.System.Repository.AssemblyInfoInputs.cache
 F:\Z.Project\EVP System\EVP.System.Repository\obj\Debug\net6.0\EVP.System.Repository.AssemblyInfo.cs
 F:\Z.Project\EVP System\EVP.System.Repository\obj\Debug\net6.0\EVP.System.Repository.csproj.CoreCompileInputs.cache
+F:\Z.Project\EVP System\EVP.System.Repository\bin\Debug\net6.0\EVP.System.Repository.deps.json
+F:\Z.Project\EVP System\EVP.System.Repository\bin\Debug\net6.0\EVP.System.Repository.dll
+F:\Z.Project\EVP System\EVP.System.Repository\bin\Debug\net6.0\EVP.System.Repository.pdb
+F:\Z.Project\EVP System\EVP.System.Repository\bin\Debug\net6.0\EVP.System.Data.dll
+F:\Z.Project\EVP System\EVP.System.Repository\bin\Debug\net6.0\EVP.System.Models.dll
+F:\Z.Project\EVP System\EVP.System.Repository\bin\Debug\net6.0\EVP.System.Data.pdb
+F:\Z.Project\EVP System\EVP.System.Repository\bin\Debug\net6.0\EVP.System.Models.pdb
+F:\Z.Project\EVP System\EVP.System.Repository\obj\Debug\net6.0\EVP.System.Repository.csproj.CopyComplete
+F:\Z.Project\EVP System\EVP.System.Repository\obj\Debug\net6.0\EVP.System.Repository.dll
+F:\Z.Project\EVP System\EVP.System.Repository\obj\Debug\net6.0\refint\EVP.System.Repository.dll
+F:\Z.Project\EVP System\EVP.System.Repository\obj\Debug\net6.0\EVP.System.Repository.pdb
+F:\Z.Project\EVP System\EVP.System.Repository\obj\Debug\net6.0\ref\EVP.System.Repository.dll
