@@ -12,5 +12,10 @@ namespace EVP.System.Data
         }
 
         public DbSet<Applicant> Applicants { get; set; }
+        public DbSet<BusinessVisa> BusinessVisas { get; set; }
+        public DbSet<PassportInfo> PassportInfos { get; set; }
+        public DbSet<StudentVisa> StudentVisas { get; set;}
+        public DbSet<TouristVisa> TouristVisas { get; set; }
+
     }
 }

@@ -61,6 +61,7 @@ namespace EVP.System
         {
             #region Repositories
             services.AddTransient<IApplicantRepository, ApplicantRepository>();
+            //services.AddTransient<IBusinessVisaRepository, BusinessVisaRepository>();
             #endregion Repositories
 
             #region Services
